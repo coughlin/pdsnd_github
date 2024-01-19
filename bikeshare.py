@@ -563,6 +563,9 @@ def about_this_app():
     This prints the application banner & the URL back to
     its github repo (https://github.com/coughlin/pdsnd_github).
     """
+    # print('\033c'...) below should clear the terminal screen
+    # But this may not work on all platforms, so some testing
+    # and validation by others is encouraged!
     print('\033c'+APP_INIT_BANNER)
     print('\nTo log Issues or Contribute to this application, go to ' +
           'https://github.com/coughlin/pdsnd_github')
