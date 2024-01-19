@@ -1,10 +1,12 @@
 """Import python modules required for all functions below."""
-# import time
+
 import datetime
 import pandas as pd
-# import numpy as np
 import calendar
 from math import floor
+# Note: imports below commented out because they were not used or required
+# import time
+# import numpy as np
 
 
 CITY_DATA = {'Chicago': 'chicago.csv',
